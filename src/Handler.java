@@ -1,6 +1,4 @@
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.sql.*;
 
 import org.w3c.dom.Document;
