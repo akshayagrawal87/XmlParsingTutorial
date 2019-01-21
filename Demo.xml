@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Altimetrik-Employees>
+	<Interns>
+	<id>112</id>
+    <name>Akshay Agrawal</name>
+    <title>Student</title>
+    <email>aagrawal112@altimetrik.com</email>
+    <phone>918002222553</phone>
+    </Interns>
+    <Interns>
+    <id>113</id>
+    <name>Manish</name>
+    <title>Student</title>
+    <email>Manish@altimetrik.com</email>
+    <phone>918122667513</phone>
+    </Interns>
+    <Interns>
+    <id>114</id>
+    <name>kayyab oswal</name>
+    <title>Student</title>
+    <email>kayyab@altimetrik.com</email>
+    <phone>918123456009</phone>
+    </Interns>
+    <Permanent>
+    <id>501</id>
+    <name>Manisha</name>
+     <designation>Staff Software Engineer</designation>
+    <email>Manisha156@altimetrik.com</email>
+    <phone>918122567883</phone> 
+    </Permanent>
+    <Permanent>
+    <id>502</id>
+    <name>Arun</name>
+    <designation>System Software Engineer</designation>
+    <email>Arun6@altimetrik.com</email>
+    <phone>918924568563</phone> 
+    </Permanent>
+     <Permanent>
+     <id>503</id>
+    <name>Arjun</name>
+    <designation>Senior Software Engineer</designation>
+    <email>arjum216@altimetrik.com</email>
+    <phone>918125798012</phone> 
+    </Permanent>
+    
+</Altimetrik-Employees>
