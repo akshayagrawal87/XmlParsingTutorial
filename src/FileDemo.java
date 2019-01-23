@@ -8,6 +8,8 @@ public class FileDemo {
 	 public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException, Exception {
 		 //getting path	 
 		 String Path = FileConstants.XML_File_Path;
+		 
+		 String employeeData[][][]=new String[2][3][5];
 	    	 
 		 System.out.println(Path);
 		 
@@ -21,7 +23,7 @@ public class FileDemo {
 	     
 		 doc.getDocumentElement().normalize(); 
 	     
-		 Handler.handleChannelTag(doc);
+		employeeData= Handler.handleChannelTag(doc);
 	         
 	   }   
 	}
