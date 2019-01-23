@@ -9,10 +9,6 @@ public class Handler {
 
 
 
-private static NodeList nList;
-
-
-
 public Connection DatabaseConnection() throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException
 	{
 		Connection conn = null;
@@ -108,19 +104,27 @@ public Connection DatabaseConnection() throws InstantiationException, IllegalAcc
 		 {
 		 
 	     employeeData[temp][0]=id;
-		 employeeData[temp][1]=name;
-		 employeeData[temp][2]=title;
-		 employeeData[temp][3]=email;
-		 employeeData[temp][4]=phone;
+	     
+	     employeeData[temp][1]=name;
+		 
+	     employeeData[temp][2]=title;
+		 
+	     employeeData[temp][3]=email;
+		 
+	     employeeData[temp][4]=phone;
 		 
 		 }
 		 
 		 else
 		 {
 			 employeeData[temp][0]=id;
+			 
 			 employeeData[temp][1]=name;
+			 
 			 employeeData[temp][2]=designation;
+			 
 			 employeeData[temp][3]=email;
+			 
 			 employeeData[temp][4]=phone;
 		 }
 		  
@@ -178,6 +182,7 @@ public Connection DatabaseConnection() throws InstantiationException, IllegalAcc
 		employeeData[0]=obj.XmlParser("Interns",ps,document);
 			 
 	    employeeData[1]=obj.XmlParser("Permanent",ps1,document);
+	    
 	    return employeeData;
 	    	 	
 	    }

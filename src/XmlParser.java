@@ -3,9 +3,10 @@ import java.sql.SQLException;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.DocumentBuilder;
 import org.w3c.dom.Document; 
-public class FileDemo {
+public class XmlParser {
 	
-	 public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException, Exception {
+	 @SuppressWarnings("unused")
+	public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException, SQLException, Exception {
 		 //getting path	 
 		 String Path = FileConstants.XML_File_Path;
 		 
